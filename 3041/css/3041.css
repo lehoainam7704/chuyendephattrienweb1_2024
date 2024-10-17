@@ -1,0 +1,86 @@
+.faq-section {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+.btn-toggle {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #000;
+  /* Màu chữ đen */
+  font-weight: bold;
+  /* Chữ đậm */
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  /* Để mũi tên nằm bên phải */
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.icon-toggle {
+  transition: transform 0.3s ease;
+  /* Hiệu ứng khi xoay */
+}
+.collapse.show .icon-toggle i {
+  transform: rotate(180deg);
+}
+.highlight {
+  border-bottom: 1px solid red;
+  /* Màu đỏ cho từ "Your all" */
+  padding-bottom: 2px;
+}
+/* Contact Form Section */
+.contact-form {
+  background-color: #2d363e;
+  padding: 40px 30px;
+  border-radius: 20px;
+  color: #fff;
+}
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background-color: #2d363e;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #ff5722;
+  color: #ff5722;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-form button:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+.contact-number {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
